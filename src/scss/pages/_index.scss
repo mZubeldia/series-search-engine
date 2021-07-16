@@ -1,0 +1,78 @@
+.main {
+  background-color: #f7ebe8;
+  height: 100%;
+}
+.features {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 2rem;
+}
+
+//favoritos
+.fav-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffa987;
+  width: 30%;
+
+  margin-right: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+  &__fav-title {
+    margin-bottom: 20px;
+  }
+}
+
+.fav-serie {
+  background-color: #e54b4b;
+  //alternativa de color #FFA987;
+}
+
+.fav-serie-item {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1em;
+  gap: 5px;
+  background-color: #e54b4b;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.btn-fav {
+  width: 20px;
+  height: 20px;
+}
+
+//resultados búsqueda
+.results-section {
+  padding: 1.4rem;
+  background-color: #c97e5b;
+  width: 70%;
+  margin-left: 10px;
+  border-radius: 5px;
+  &__result-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 1em;
+    .serie-title {
+      padding: 5px;
+    }
+    .serie-item {
+      cursor: pointer;
+      background-color: #444140;
+      border-radius: 5px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+//JS classes for series
+/*
+
+.serie-title{}
+.serie-img{}
+*/
