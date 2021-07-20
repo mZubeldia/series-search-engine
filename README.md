@@ -1,6 +1,5 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# Módulo 2: Ejercicio de evaluación final
+# Series Search Engine
 
 Para la realización de este proyecto he usado el Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
 
